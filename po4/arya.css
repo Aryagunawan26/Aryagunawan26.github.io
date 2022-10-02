@@ -1,0 +1,45 @@
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: auto;
+    padding: 100px;
+    background-image: url(ikmi2.jpg);
+    
+}
+
+.kotak1, .kotak2, .kotak3{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    
+}
+
+.judul{
+    background-color: aqua;
+}
+
+ol {
+    background-color: aqua;
+}
+.daftar{
+    width: 100%;
+    height: 25px;
+    padding: 1px 0;
+    background-color: yellow;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tombol{
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+    border: none;
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+}
