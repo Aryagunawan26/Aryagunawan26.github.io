@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P06 JQuery Add/Remove Class for SPA Menu</title>
+  <link rel="stylesheet" href="arya.css">
+</head>
+<body>
+<div class="navigator">
+<ul id="menu">
+    <li class="cek"><a href="#home">HOME</a></li>   
+    <li class="active"><a href="#produk">PRODUK</a></li>
+    <li><a href="#layanan">LAYANAN</a></li> 
+    <li><a href="#tentang">TENTANG</a></li>
+</ul>
+</div>
+
+<div class="clear"></div>
+
+<div id="seleksi" style="display:none;">
+   <div id="producttype">
+        <div id="home" class="active muncul">
+          <h1>Menu Home</h1>
+            <p>"Kami telah menunggu begitu lama untuk memilikimu di antara kami. Akhirnya, waktunya telah tiba. Kami dengan senang hati menyambutmu untuk bergabung dengan kami hari ini!"</p>
+        </div>
+            
+         <div id="produk" class="muncul">
+          <h1>Menu Produk</h1>
+            <p>"Paket hemat #BarengTeman, makan berdua cukup bayar Rp 20.000 saja untuk setiap produk nasi goreng seafood ukuran medium."
+            </p>
+         </div>
+            
+         <div id="layanan" class="muncul">
+          <h1>Menu Layanan</h1>
+            <p> "Untuk memberikan pelayanan yang nyata, Anda harus menambahkan sesuatu yang tidak dapat dibeli atau diukur dengan uang, yaitu ketulusan dan integritas." - Don Alden Adams</p>
+        </div>
+         
+        <div id="tentang" class="muncul">
+          <h1>Menu Tentang</h1>
+            <p>" Bukan abal-abal, kami hanya menjual produk berkualitas dengan garansi panjang. Tunggu apa lagi, segera pesan sekarang juga!"</p>
+        </div>       
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="arya.js"></script>
+
+</body>
+</html>
