@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(168, 187, 241);
+  }
+
+  h1 {
+    text-align: center;;
+  }
+  
+  td,
+  th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  td:hover {
+    background-color: aliceblue;
+  }
+   
+  .ndase-tabel {
+    background-color: aliceblue;
+  }
+  
+  .tabel {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .ubah {
+    background-color: yellow;
+  }
+  
+  .ubah:hover {
+    background-color: aliceblue;
+  }
+  
+  .apus {
+    background-color: red;
+  }
+  
+  .apus:hover {
+    background-color: aliceblue;
+  }
